@@ -1,0 +1,14 @@
+/* Uma regra de CSS é composta por 3 partes: seletor, propriedade e valor */
+
+
+body /*seletor*/ {
+    background/*propriedade*/: blue/*valor*/;
+}
+
+h3{
+    color: red;
+}
+
+.foto-principal{
+    width: 500px;
+}

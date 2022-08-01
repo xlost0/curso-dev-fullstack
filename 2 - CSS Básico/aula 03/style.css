@@ -1,0 +1,13 @@
+
+body {
+  background-image: url(OIP.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  /*background-position: 100% 20%; o primeiro valor se refere ao espaçamento da esquerda e o segundo ao do topo*/ 
+}
+
+p {
+    color: rgb(34, 34, 34);
+}

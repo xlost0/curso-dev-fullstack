@@ -1,0 +1,84 @@
+/* Uma regra de CSS é composta por 3 partes: seletor, propriedade e valor */
+
+
+body /*seletor*/ {
+    background/*propriedade*/: rgb(221, 216, 216)/*valor*/;
+    font-family: 'Raleway', sans-serif; /*Quando a fonte tiver 2 nomes, colocar entre 'aspas'*/
+    color: rgb(34, 34, 34);
+    margin: 0;
+} 
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.profile {
+     text-align: center;
+     margin-bottom: 40px ;
+}
+
+.foto-principal {
+    width: 200px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 30px 30px 30px 30px;
+    /*padding: 10px;*/
+    box-shadow: 4px 4px 22px #655f5f;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: -1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 50px;
+}
+
+h2 {
+    margin-top: 0;
+    font-style: italic;
+    color: #555555;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
+
+h5 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-style: italic ;
+}
+
+p {
+    line-height: 25px;
+    margin-top: 0;
+}
+
+.social-links {
+    text-decoration: none;
+}
+
+.social-icons {
+     width: 20px;
+}
+.github {
+    margin: 0 15px 0 15px;
+}
+
+.jobs-list {
+    list-style: none;
+    padding-inline-start: 22px;
+}
+
+.footer {
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

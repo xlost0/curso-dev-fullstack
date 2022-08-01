@@ -1,0 +1,32 @@
+/* Uma regra de CSS é composta por 3 partes: seletor, propriedade e valor */
+
+
+body /*seletor*/ {
+    background/*propriedade*/: rgb(221, 216, 216)/*valor*/;
+    font-family: 'Raleway', sans-serif; /*Quando a fonte tiver 2 nomes, colocar entre 'aspas'*/
+    color: rgb(34, 34, 34);
+}
+
+.foto-principal {
+    width: 200px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 30px 30px 30px 30px;
+    /*padding: 10px;*/
+    box-shadow: 4px 4px 22px #655f5f;
+}
+
+h1{
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 50px;
+}
+
+h2{
+    margin-top: 0;
+    font-style: italic;
+    color: #555555;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
