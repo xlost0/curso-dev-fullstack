@@ -1,0 +1,34 @@
+
+::selection {
+    color: pink;
+    background: blue;
+}
+
+p::first-line {
+    color: orange ;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 50px ;
+}
+
+h1::before {
+    background: url(rocket.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    content: "";
+    margin-right: 10px;
+}
+
+h1::after {
+    background: url(rocket.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    content: "";
+    margin-left: 10px;
+}
