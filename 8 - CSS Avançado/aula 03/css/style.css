@@ -1,0 +1,12 @@
+@import "variaveis.css"; 
+@import "comuns.css"; 
+@import "arquivo-novo.css";
+
+img{
+    width: 500px;
+}
+
+.box {
+    filter: blur(5px);
+    width: 500px;
+}
